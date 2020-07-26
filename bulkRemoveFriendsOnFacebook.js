@@ -1,4 +1,6 @@
 var wait = (delay, ...args) => new Promise(resolve => setTimeout(resolve, delay, ...args));
+var fb_dtsg = "CHANGE_THIS"; //Required
+var notToRemoveIds = ["ID1", "ID2", "ID3", "..."] //Optional
 
 var getFriendIds = function() {
   var ids = [];
